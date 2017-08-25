@@ -1,0 +1,180 @@
+{
+  "Options": {
+    "botAccuracy": 9,
+    "botDamage": 2.2,
+    "botFiringRange": 50,
+    "Ignore_Animals": true,
+    "Respawn_Timer": 120,
+    "Suicide_Timer": 300
+  },
+  "Zones": {
+    "Airfield": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 150
+    },
+    "Dome": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 4,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 85
+    },
+    "Harbor1": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 4,
+      "botKit": "m249",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    },
+    "Harbor2": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "m249",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    },
+    "Launchsite": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 5,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 150
+    },
+    "MilitaryTunnel": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "bolt",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    },
+    "Powerplant": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    },
+    "Radtown": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    },
+    "Satellite": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "bolt",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 150
+    },
+    "Trainyard": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    },
+    "Warehouse": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 1,
+      "botKit": "shotgun",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 30
+    },
+    "Warehouse1": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 1,
+      "botKit": "melee",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 30
+    },
+    "Warehouse2": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 1,
+      "botKit": "shotgun",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 30
+    },
+    "Watertreatment": {
+      "activate": true,
+      "botHealth": 100,
+      "botCount": 2,
+      "botKit": "rifles",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 200
+    }
+  }
+}

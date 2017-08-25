@@ -1,0 +1,390 @@
+{
+  "Attachments": {
+    "4x Zoom Scope": "Scope",
+    "Holosight": "Holosight",
+    "Muzzle Boost": "",
+    "Muzzle Brake": "Muzzle Brake",
+    "Silencer": "Silencer",
+    "Simple Handmade Sight": "Handmade Sight",
+    "Weapon flashlight": "Weapon flashlight",
+    "Weapon Flashlight": "Flashlight",
+    "Weapon Lasersight": "Laser"
+  },
+  "Bodyparts": {
+    "Body": "Body",
+    "Chest": "Chest",
+    "Groin": "Dick",
+    "Head": "Head",
+    "Head2": "Head2",
+    "Hip": "Hip",
+    "Horse_RootBone": "Horse_RootBone",
+    "Jaw": "Jaw",
+    "Jaw_END": "Jaw_END",
+    "Joint32": "Joint32",
+    "Joint35": "Joint35",
+    "Joint36": "Joint36",
+    "Joint38": "Joint38",
+    "Joint40": "Joint40",
+    "L_ear": "L_ear",
+    "L_Fore_Foot": "L_Fore_Foot",
+    "L_Fore_Foot_END": "L_Fore_Foot_END",
+    "L_Fore_Shin": "L_Fore_Shin",
+    "L_Fore_Thigh": "L_Fore_Thigh",
+    "L_Hip": "L_Hip",
+    "L_nostril": "L_nostril",
+    "L_Rear_Foot": "L_Rear_Foot",
+    "L_Rear_Foot_END": "L_Rear_Foot_END",
+    "L_Rear_Shin": "L_Rear_Shin",
+    "L_Rear_Thigh": "L_Rear_Thigh",
+    "L_Shoulder": "L_Shoulder",
+    "Left Arm": "Arm",
+    "Left Foot": "Foot",
+    "Left Forearm": "Forearm",
+    "Left Hand": "Hand",
+    "Left Knee": "Knee",
+    "Left Ring Finger": "Left Ring Finger",
+    "Left Shoulder": "Shoulder",
+    "Left Thumb": "Thumb",
+    "Left Toe": "Toe",
+    "Left_Calf": "Left_Calf",
+    "Left_ear": "Left_ear",
+    "Left_Ear": "Left_Ear",
+    "Left_Ear_END": "Left_Ear_END",
+    "Left_Finger": "Left_Finger",
+    "Left_Fingers": "Left_Fingers",
+    "Left_Foot": "Left_Foot",
+    "Left_Forearm": "Left_Forearm",
+    "Left_ForeArm": "Left_ForeArm",
+    "Left_Hand": "Left_Hand",
+    "Left_Pelvis": "Left_Pelvis",
+    "Left_Shoulder": "Left_Shoulder",
+    "Left_Thigh": "Left_Thigh",
+    "Left_Thigh_FatEND": "Left_Thigh_FatEND",
+    "Left_Toe": "Left_Toe",
+    "Left_Toes": "Left_Toes",
+    "Left_ToeTip": "Left_ToeTip",
+    "Left_Ulna": "Left_Ulna",
+    "Left_Upper_Thigh": "Left_Upper_Thigh",
+    "Left_UpperArm": "Left_UpperArm",
+    "Lip_lower": "Lip_lower",
+    "Lip_lower_END": "Lip_lower_END",
+    "Lip_upper": "Lip_upper",
+    "Lower Spine": "Lower Spine",
+    "Lower_jaw": "Lower_jaw",
+    "Mane_5a": "Mane_5a",
+    "Mane_5c": "Mane_5c",
+    "Neck": "Neck",
+    "Neck_1": "Neck_1",
+    "Neck_2": "Neck_2",
+    "Neck_3": "Neck_3",
+    "Neck_END": "Neck_END",
+    "Neck_expander_1": "Neck_expander_1",
+    "Neck1": "Neck1",
+    "Neck2": "Neck2",
+    "Neck3": "Neck3",
+    "Pelvis": "Pelvis",
+    "R_ear": "R_ear",
+    "R_Fore_Foot": "R_Fore_Foot",
+    "R_Fore_Foot_END": "R_Fore_Foot_END",
+    "R_Fore_Shin": "R_Fore_Shin",
+    "R_Fore_Thigh": "R_Fore_Thigh",
+    "R_Hip": "R_Hip",
+    "R_Rear_Foot": "R_Rear_Foot",
+    "R_Rear_Foot_END": "R_Rear_Foot_END",
+    "R_Rear_Shin": "R_Rear_Shin",
+    "R_Rear_Thigh": "R_Rear_Thigh",
+    "R_Shoulder": "R_Shoulder",
+    "Right Arm": "Arm",
+    "Right Foot": "Foot",
+    "Right Forearm": "Forearm",
+    "Right Hand": "Hand",
+    "Right Knee": "Knee",
+    "Right Ring Finger": "Right Ring Finger",
+    "Right Shoulder": "Shoulder",
+    "Right Thumb": "Thumb",
+    "Right Toe": "Toe",
+    "Right_Calf": "Right_Calf",
+    "Right_ear": "Right_ear",
+    "Right_Finger": "Right_Finger",
+    "Right_Fingers": "Right_Fingers",
+    "Right_Foot": "Right_Foot",
+    "Right_Forearm": "Right_Forearm",
+    "Right_ForeArm": "Right_ForeArm",
+    "Right_Hand": "Right_Hand",
+    "Right_Pelvis": "Right_Pelvis",
+    "Right_Shoulder": "Right_Shoulder",
+    "Right_Thigh": "Right_Thigh",
+    "Right_Toe": "Right_Toe",
+    "Right_Toes": "Right_Toes",
+    "Right_Ulna": "Right_Ulna",
+    "Right_Upper_Thigh": "Right_Upper_Thigh",
+    "Right_UpperArm": "Right_UpperArm",
+    "Spine_2": "Spine_2",
+    "Spine_3": "Spine_3",
+    "Spine_4": "Spine_4",
+    "Spine_End": "Spine_End",
+    "Spine_END": "Spine_END",
+    "Spine1": "Spine1",
+    "Spine1_FatEnd": "Spine1_FatEnd",
+    "Spine2": "Spine2",
+    "Spine3": "Spine3",
+    "Spine4": "Spine4",
+    "Stomach": "Stomach",
+    "Stomache_expander_1": "Stomache_expander_1",
+    "Stomache_expander_2": "Stomache_expander_2",
+    "Tail": "Tail",
+    "Tail_1": "Tail_1",
+    "Tail_Eff": "Tail_Eff",
+    "Tail1": "Tail1",
+    "Tail2": "Tail2",
+    "Tail3": "Tail3",
+    "Tail4": "Tail4",
+    "Tail5": "Tail5",
+    "Tongue_1": "Tongue_1",
+    "Tongue_END": "Tongue_END"
+  },
+  "Messages": {
+    "Animal": [
+      "<size=14>A {attacker} followed {victim} until it finally caught him</size>"
+    ],
+    "Animal Sleeping": [
+      "<size=14>{victim} was killed by a {attacker} while having a sleep</size>"
+    ],
+    "AnimalDeath": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Apc": [
+      "<size=14>A {attacker} slaughtered {victim}</size>"
+    ],
+    "Apc Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{distance}m|</size> sleeping <size=14>{victim}</size>"
+    ],
+    "ApcDeath": [
+      "The {victim} was taken down."
+    ],
+    "Bleeding": [
+      "<size=14>{victim} bled out.</size>"
+    ],
+    "Blunt": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|</size>  <size=14>{victim}</size>"
+    ],
+    "Blunt Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size>  Sleeping <size=14>{victim}</size>"
+    ],
+    "Bullet": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{bodypart}|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Bullet Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{bodypart}|Sleeping|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Cold": [
+      "<size=14>{victim} got a little too cold</size>"
+    ],
+    "Drowned": [
+      "<size=14>{victim} drowned</size>"
+    ],
+    "Explosion": [
+      "<size=14>{attacker} killed {victim} with a boom boom</size>"
+    ],
+    "Explosion Sleeping": [
+      "<size=14>{attacker} killed sleeping {victim} with a boom boom</size>"
+    ],
+    "Fall": [
+      "<size=14>{victim} fell to his death</size>"
+    ],
+    "Flamethrower": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Flamethrower Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size> sleeping <size=14>{victim}</size>"
+    ],
+    "Generic": [
+      "<size=14>The death took {victim} with him</size>"
+    ],
+    "Generic Sleeping": [
+      "<size=14>The death took sleeping {victim} with him</size>"
+    ],
+    "Heat": [
+      "<size=14>{victim} burned to ashes</size>"
+    ],
+    "Helicopter": [
+      "<size=14>{attacker}</size>  <size=12>|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Helicopter Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{distance}m|</size> sleeping <size=14>{victim}</size>"
+    ],
+    "HelicopterDeath": [
+      "The {victim} was taken down."
+    ],
+    "Hunger": [
+      "<size=14>{victim} forgot to eat</size>"
+    ],
+    "Poison": [
+      "<size=14>{victim} died after being poisoned</size>"
+    ],
+    "Radiation": [
+      "<size=14>{victim} became a bit too radioactive</size>"
+    ],
+    "ShotgunTrap": [
+      "<size=14>A {attacker} defended its home against {victim}</size>"
+    ],
+    "Slash": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Slash Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size> sleeping  <size=14>{victim}</size>"
+    ],
+    "Stab": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size>  <size=14>{victim}</size>"
+    ],
+    "Stab Sleeping": [
+      "<size=14>{attacker}</size>  <size=12>|{weapon}|{distance}m|</size> sleeping  <size=14>{victim}</size>"
+    ],
+    "Structure": [
+      "<size=14>A {attacker} impaled {victim}</size>"
+    ],
+    "Suicide": [
+      "<size=14>{victim} gave up on life</size>"
+    ],
+    "Thirst": [
+      "<size=14>{victim} dried internally</size>"
+    ],
+    "Trap": [
+      "<size=14>{victim} ran into a {attacker}</size>"
+    ],
+    "Turret": [
+      "<size=14>A {attacker} defended its home against {victim}</size>"
+    ],
+    "Unknown": [
+      "<size=14>{victim} died. Nobody knows why, it just happened</size>"
+    ],
+    "Unknown Sleeping": [
+      "<size=14>{victim} was sleeping when he died. Nobody knows why, it just happened</size>"
+    ]
+  },
+  "Names": {
+    "Auto Turret": "Auto Turret",
+    "Barbed Wooden Barricade": "Barbed Wooden Barricade",
+    "Bear": "Bear",
+    "Boar": "Pig",
+    "Bradley": "Bradley",
+    "Chicken": "Chicken",
+    "High External Stone Wall": "High External Stone Wall",
+    "High External Wooden Wall": "High External Wooden Wall",
+    "Horse": "Horse",
+    "Land Mine": "Land Mine",
+    "Metal Barricade": "Metal Barricade",
+    "No Attacker": "Napalm",
+    "Patrol Helicopter": "Helicopter",
+    "Shotgun Trap": "Shotgun Trap",
+    "Shotgun Turret": "Shotgun Turret",
+    "Snap Trap": "Snap Trap",
+    "Stag": "Deer",
+    "Wolf": "Wolf",
+    "Wooden Barricade": "Wooden Barricade",
+    "Wooden Floor Spikes": "Wooden Floor Spikes",
+    "Zombie": "Zombie"
+  },
+  "Settings": {
+    "Attachments Color": "#898989",
+    "Attachments Formatting": "{attachments}",
+    "Attachments Split": "|",
+    "Attacker Color": "#ff3b3b",
+    "Bodypart Color": "#898989",
+    "Chat Icon (SteamID)": "76561198152966835",
+    "Console Formatting": "{Message}",
+    "Distance Color": "#4f95d4",
+    "Formatting": "{Message}",
+    "Health Color": "#898989",
+    "Log to File": false,
+    "Message Color": "#878787",
+    "Message Radius": 300.0,
+    "Message Radius Enabled": false,
+    "Needs Permission": false,
+    "Show NPC Battles": false,
+    "Simple UI - Font Size": 10,
+    "Simple UI - Left": 0.1,
+    "Simple UI - Max Height": 0.05,
+    "Simple UI - Max Width": 0.8,
+    "Simple UI - Top": 0.1,
+    "Simple UI Hide Timer": 5.0,
+    "Strip Colors from Simple UI": false,
+    "Title": "Death Notes",
+    "Title Color": "#80D000",
+    "Use Popup Notifications": false,
+    "Use Simple UI": false,
+    "Victim Color": "#3cc130",
+    "Weapon Color": "#898989",
+    "Write to Chat": true,
+    "Write to Console": true
+  },
+  "Weapons": {
+    "Ak47u": "Ak47u",
+    "Assault Rifle": "AK",
+    "Beancan Grenade": "Beancan Grenade",
+    "Bolt Action Rifle": "Bolty",
+    "Bolt Rifle": "Bolt Rifle",
+    "Bone Club": "Bone Club",
+    "Bone Knife": "Knife",
+    "Bow Hunting": "Bow",
+    "Crossbow": "Crossbow",
+    "Custom SMG": "Custom",
+    "Double Barrel Shotgun": "Double Barrel",
+    "Double Shotgun": "Shotgun",
+    "Eoka Pistol": "Eoka",
+    "Explosivesatchel": "Satchel",
+    "F1 Grenade": "Grenade",
+    "Flamethrower": "Flamethrower",
+    "Flameturret": "Flameturret",
+    "Hatchet": "Hatchet",
+    "Hunting Bow": "Bow",
+    "Landmine": "Landmine",
+    "Longsword": "Longsword",
+    "Lr300": "Lr300",
+    "LR-300 Assault Rifle": "LR-300",
+    "M249": "M249",
+    "M92": "M92",
+    "M92 Pistol": "M92",
+    "Mace": "Mace",
+    "Machete": "Machete",
+    "Mp5": "Mp5",
+    "MP5A4": "MP5",
+    "No Weapon": "No Weapon",
+    "Pick Axe": "Pick Axe",
+    "Pickaxe": "Pickaxe",
+    "Pistol Eoka": "Pistol Eoka",
+    "Pistol Revolver": "Revolver",
+    "Pistol Semiauto": "Pistol",
+    "Pump Shotgun": "Pump",
+    "Python": "Python",
+    "Python Revolver": "Python",
+    "Revolver": "Revolver",
+    "Rock": "Rock",
+    "Rocket Basic": "Rocket Basic",
+    "Rocket Fire": "Rocket Fire",
+    "Rocket Heli": "Heli",
+    "Rocket Heli Napalm": "Napalm",
+    "Rocket Hv": "Rocket",
+    "Salvaged Axe": "Salvaged Axe",
+    "Salvaged Cleaver": "Cleaver",
+    "Salvaged Hammer": "Salvaged Hammer",
+    "Salvaged Icepick": "Icepick",
+    "Salvaged Sword": "Sword",
+    "Semi Auto Rifle": "Rifle",
+    "Semi-Automatic Pistol": "Pistol",
+    "Semi-Automatic Rifle": "Rifle",
+    "Shotgun Pump": "Shotgun Pump",
+    "Shotgun Waterpipe": "Shotgun Waterpipe",
+    "Smg": "Smg",
+    "Stone Hatchet": "Stone Hatchet",
+    "Stone Pick Axe": "Stone Pick Axe",
+    "Stone Pickaxe": "Stone Pickaxe",
+    "Stone Spear": "Stone Spear",
+    "Survey Charge": "Survey Charge",
+    "Thompson": "Thompson",
+    "Timed Explosive": "Timed Explosive",
+    "Torch": "Torch",
+    "Waterpipe Shotgun": "Waterpipe Shotgun",
+    "Wooden Spear": "Spear"
+  }
+}
