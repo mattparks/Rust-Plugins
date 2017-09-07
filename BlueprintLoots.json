@@ -1867,10 +1867,6 @@
           "weight": 100.0
         },
         {
-          "definition": "ammo.rocket.basic",
-          "weight": 75.0
-        },
-        {
           "definition": "ammo.shotgun",
           "weight": 100.0
         },
