@@ -1,0 +1,4714 @@
+{
+  "lootContainerAssignments": {
+    "assets/bundled/prefabs/radtown/crate_normal.prefab": "LootSpawn.RadTown1",
+    "assets/bundled/prefabs/radtown/oil_barrel.prefab": "LootSpawn.OilBarrel",
+    "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": "LootSpawn.Barrel",
+    "assets/bundled/prefabs/radtown/crate_normal_2.prefab": "LootSpawn.RadTown2",
+    "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": "LootSpawn.Barrel",
+    "assets/bundled/prefabs/radtown/crate_tools.prefab": "LootSpawn.BlackBox",
+    "assets/bundled/prefabs/radtown/foodbox.prefab": "LootSpawn.TrashPile",
+    "assets/prefabs/misc/supply drop/supply_drop.prefab": "LootSpawn.SupplyDrop",
+    "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": "DM.LootSpawn.FoodCrate",
+    "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": "DM.LootSpawn.MedicalCrate",
+    "assets/bundled/prefabs/radtown/crate_mine.prefab": "LootSpawn.MineCrate",
+    "assets/bundled/prefabs/radtown/loot_trash.prefab": "LootSpawn.TrashPile",
+    "assets/bundled/prefabs/radtown/minecart.prefab": "LootSpawn.MineCrate",
+    "assets/bundled/prefabs/autospawn/resource/loot/trash-pile-1.prefab": "LootSpawn.TrashPile",
+    "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-1.prefab": "LootSpawn.Barrel",
+    "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-2.prefab": "LootSpawn.Barrel",
+    "assets/prefabs/npc/patrol helicopter/heli_crate.prefab": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab",
+    "assets/bundled/prefabs/radtown/crate_elite.prefab": "Lootspawn.EliteCrate"
+  },
+  "allLootTables": {
+    "Lootspawn.EliteCrate": {
+      "itemName": "Lootspawn.EliteCrate",
+      "children": [
+        {
+          "definition": "Items.VeryRare",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare",
+          "weight": 200.0
+        },
+        {
+          "definition": "Items.Uncommon",
+          "weight": 300.0
+        },
+        {
+          "definition": "Collection.Rifles",
+          "weight": 100.0
+        },
+        {
+          "definition": "HQMetal_Large",
+          "weight": 200.0
+        },
+        {
+          "definition": "supply.signal",
+          "weight": 20.0
+        },
+      ],
+      "items": []
+    },
+    "LootSpawn.SupplyDrop": {
+      "itemName": "LootSpawn.SupplyDrop",
+      "children": [
+        {
+          "definition": "Items.VeryRare",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare",
+          "weight": 200.0
+        },
+        {
+          "definition": "Items.Uncommon",
+          "weight": 300.0
+        },
+        {
+          "definition": "Collection.Rifles",
+          "weight": 100.0
+        },
+        {
+          "definition": "Mining Ore",
+          "weight": 20.0
+        },
+        {
+          "definition": "Traps",
+          "weight": 40.0
+        },
+        {
+          "definition": "HQMetal_Large",
+          "weight": 30.0
+        },
+        {
+          "definition": "targeting_computer",
+          "weight": 40.0
+        },
+        {
+          "definition": "cctv_camera",
+          "weight": 20.0
+        }
+      ],
+      "items": []
+    },
+    "DM.LootSpawn.FoodCrate": {
+      "itemName": "DM.LootSpawn.FoodCrate",
+      "children": [
+        {
+          "definition": "DM.Food",
+          "weight": 50.0
+        },
+        {
+          "definition": "RadPills",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.RadTown1": {
+      "itemName": "LootSpawn.RadTown1",
+      "children": [
+        {
+          "definition": "Tools",
+          "weight": 20.0
+        },
+        {
+          "definition": "Collection.Weapons",
+          "weight": 15.0
+        },
+        {
+          "definition": "supply.signal",
+          "weight": 1.0
+        },
+        {
+          "definition": "Blueprints.Rare",
+          "weight": 0.1
+        },
+        {
+          "definition": "Blueprints.VeryRare",
+          "weight": 0.05
+        },
+        {
+          "definition": "Crossbow",
+          "weight": 3.0
+        },
+        {
+          "definition": "HQMetal",
+          "weight": 5.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.RadTown2": {
+      "itemName": "LootSpawn.RadTown2",
+      "children": [
+        {
+          "definition": "LootSpawn.GenericLessNothing",
+          "weight": 50.0
+        },
+        {
+          "definition": "Blueprints.Common",
+          "weight": 20.0
+        },
+        {
+          "definition": "Blueprints.Uncommon",
+          "weight": 10.0
+        },
+        {
+          "definition": "Blueprints.Rare",
+          "weight": 5.0
+        },
+        {
+          "definition": "Blueprints.VeryRare",
+          "weight": 3.0
+        },
+        {
+          "definition": "Collection.Attire",
+          "weight": 30.0
+        },
+        {
+          "definition": "HQMetal",
+          "weight": 15.0
+        },
+        {
+          "definition": "Radsuit",
+          "weight": 7.0
+        }
+      ],
+      "items": []
+    },
+    "DM.LootSpawn.MedicalCrate": {
+      "itemName": "DM.LootSpawn.MedicalCrate",
+      "children": [
+        {
+          "definition": "Bandage",
+          "weight": 40.0
+        },
+        {
+          "definition": "largemedkit",
+          "weight": 50.0
+        },
+        {
+          "definition": "syringe.medical",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.BarrelCommon": {
+      "itemName": "LootSpawn.BarrelCommon",
+      "children": [
+        {
+          "definition": "Items.Common",
+          "weight": 30.0
+        },
+        {
+          "definition": "Items.Uncommon",
+          "weight": 10.0
+        },
+        {
+          "definition": "Blueprints.Common",
+          "weight": 10.0
+        },
+        {
+          "definition": "Blueprints.Uncommon",
+          "weight": 10.0
+        },
+        {
+          "definition": "LootSpawn.BarrelGarbage",
+          "weight": 20.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.OilBarrel": {
+      "itemName": "LootSpawn.OilBarrel",
+      "children": [],
+      "items": [
+        {
+          "itemName": "crude.oil",
+          "minAmount": 15,
+          "maxAmount": 20
+        },
+        {
+          "itemName": "lowgradefuel",
+          "minAmount": 5,
+          "maxAmount": 10
+        }
+      ]
+    },
+    "LootSpawn.BarrelBetter": {
+      "itemName": "LootSpawn.BarrelBetter",
+      "children": [
+        {
+          "definition": "LootSpawn.BarrelCommon",
+          "weight": 90.0
+        },
+        {
+          "definition": "Bow And Arrow",
+          "weight": 6.0
+        },
+        {
+          "definition": "Items.Common.Tool",
+          "weight": 10.0
+        },
+        {
+          "definition": "Items.Uncommon.Tool",
+          "weight": 5.0
+        },
+        {
+          "definition": "Blueprints.Rare",
+          "weight": 2.0
+        },
+        {
+          "definition": "Blueprints.VeryRare",
+          "weight": 0.75
+        },
+        {
+          "definition": "Crossbow",
+          "weight": 3.0
+        },
+        {
+          "definition": "HQMetal",
+          "weight": 5.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.ResearchTable": {
+      "itemName": "LootSpawn.ResearchTable",
+      "children": [
+        {
+          "definition": "research.table",
+          "weight": 1.0
+        },
+        {
+          "definition": "Nothing",
+          "weight": 199.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.BarrelGarbage": {
+      "itemName": "LootSpawn.BarrelGarbage",
+      "children": [
+        {
+          "definition": "Nothing",
+          "weight": 50.0
+        },
+        {
+          "definition": "Items.Common.Food",
+          "weight": 50.0
+        },
+        {
+          "definition": "Items.Common.Medical",
+          "weight": 20.0
+        },
+        {
+          "definition": "Items.Common.Attire",
+          "weight": 15.0
+        },
+        {
+          "definition": "LootSpawn.GenericLessNothing",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.TrashPile": {
+      "itemName": "LootSpawn.TrashPile",
+      "children": [
+        {
+          "definition": "Items.Common.Food",
+          "weight": 30.0
+        },
+        {
+          "definition": "Blueprint Fragments",
+          "weight": 5.0
+        },
+        {
+          "definition": "RadPills",
+          "weight": 5.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.BlackBox": {
+      "itemName": "LootSpawn.BlackBox",
+      "children": [
+        {
+          "definition": "Tools",
+          "weight": 50.0
+        },
+        {
+          "definition": "ArmorBasic",
+          "weight": 50.0
+        },
+        {
+          "definition": "BasicWeapons",
+          "weight": 50.0
+        },
+        {
+          "definition": "TurretParts",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "ArmorBasic": {
+      "itemName": "ArmorBasic",
+      "children": [
+        {
+          "definition": "hoodie",
+          "weight": 5.0
+        },
+        {
+          "definition": "pants",
+          "weight": 10.0
+        },
+        {
+          "definition": "tshirt.long",
+          "weight": 10.0
+        },
+        {
+          "definition": "tshirt",
+          "weight": 10.0
+        },
+        {
+          "definition": "WoodArmorSet",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "TurretParts": {
+      "itemName": "TurretParts",
+      "children": [
+        {
+          "definition": "targeting_computer",
+          "weight": 55.0
+        },
+        {
+          "definition": "cctv_camera",
+          "weight": 45.0
+        }
+      ],
+      "items": []
+    },
+    "RadPills": {
+      "itemName": "RadPills",
+      "children": [],
+      "items": [
+        {
+          "itemName": "antiradpills",
+          "minAmount": 1,
+          "maxAmount": 2
+        }
+      ]
+    },
+    "LootSpawn.Barrel": {
+      "itemName": "LootSpawn.Barrel",
+      "children": [
+        {
+          "definition": "LootSpawn.BarrelCommon",
+          "weight": 30.0
+        },
+        {
+          "definition": "LootSpawn.BarrelGarbage",
+          "weight": 10.0
+        },
+        {
+          "definition": "LootSpawn.BarrelBetter",
+          "weight": 5.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.MineCrate": {
+      "itemName": "LootSpawn.MineCrate",
+      "children": [
+        {
+          "definition": "Hat Mining with fuel",
+          "weight": 30.0
+        },
+        {
+          "definition": "Hat Candle with fuel",
+          "weight": 30.0
+        },
+        {
+          "definition": "HQMetal",
+          "weight": 5.0
+        },
+        {
+          "definition": "Tools",
+          "weight": 10.0
+        },
+        {
+          "definition": "Mining Gunpowder",
+          "weight": 5.0
+        },
+        {
+          "definition": "Mining Gunpowder",
+          "weight": 5.0
+        },
+        {
+          "definition": "SurveyCharges",
+          "weight": 5.0
+        },
+        {
+          "definition": "Mining metalfrags",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "Hat Mining with fuel": {
+      "itemName": "Hat Mining with fuel",
+      "children": [],
+      "items": [
+        {
+          "itemName": "lowgradefuel",
+          "minAmount": 10,
+          "maxAmount": 0
+        },
+        {
+          "itemName": "hat.miner",
+          "minAmount": 1,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "Hat Candle with fuel": {
+      "itemName": "Hat Candle with fuel",
+      "children": [],
+      "items": [
+        {
+          "itemName": "lowgradefuel",
+          "minAmount": 10,
+          "maxAmount": 0
+        },
+        {
+          "itemName": "hat.candle",
+          "minAmount": 1,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "Tools": {
+      "itemName": "Tools",
+      "children": [
+        {
+          "definition": "ToolsBasic",
+          "weight": 80.0
+        },
+        {
+          "definition": "ToolsMedium",
+          "weight": 20.0
+        }
+      ],
+      "items": []
+    },
+    "Mining metalfrags": {
+      "itemName": "Mining metalfrags",
+      "children": [],
+      "items": [
+        {
+          "itemName": "metal.fragments",
+          "minAmount": 30,
+          "maxAmount": 50
+        }
+      ]
+    },
+    "Mining Gunpowder": {
+      "itemName": "Mining Gunpowder",
+      "children": [],
+      "items": [
+        {
+          "itemName": "gunpowder",
+          "minAmount": 15,
+          "maxAmount": 25
+        }
+      ]
+    },
+    "SurveyCharges": {
+      "itemName": "SurveyCharges",
+      "children": [],
+      "items": [
+        {
+          "itemName": "surveycharge",
+          "minAmount": 1,
+          "maxAmount": 3
+        }
+      ]
+    },
+    "ToolsBasic": {
+      "itemName": "ToolsBasic",
+      "children": [
+        {
+          "definition": "Hatchet",
+          "weight": 1.0
+        },
+        {
+          "definition": "pickaxe",
+          "weight": 1.0
+        }
+      ],
+      "items": []
+    },
+    "ToolsMedium": {
+      "itemName": "ToolsMedium",
+      "children": [
+        {
+          "definition": "icepick.salvaged",
+          "weight": 1.0
+        },
+        {
+          "definition": "axe.salvaged",
+          "weight": 1.0
+        }
+      ],
+      "items": []
+    },
+    "Radsuit": {
+      "itemName": "Radsuit",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hazmatsuit",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "BasicWeapons": {
+      "itemName": "BasicWeapons",
+      "children": [
+        {
+          "definition": "salvaged.sword",
+          "weight": 10.0
+        },
+        {
+          "definition": "Mace",
+          "weight": 10.0
+        },
+        {
+          "definition": "salvaged.cleaver",
+          "weight": 10.0
+        },
+        {
+          "definition": "Bow And Arrow",
+          "weight": 10.0
+        },
+        {
+          "definition": "Crossbow",
+          "weight": 5.0
+        }
+      ],
+      "items": []
+    },
+    "Custom Smg With Ammo": {
+      "itemName": "Custom Smg With Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smg.2",
+          "minAmount": 1,
+          "maxAmount": 0
+        },
+        {
+          "itemName": "ammo.pistol",
+          "minAmount": 20,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "LR300 With Ammo": {
+      "itemName": "LR300 With Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.lr300",
+          "minAmount": 1,
+          "maxAmount": 0
+        },
+        {
+          "itemName": "ammo.rifle",
+          "minAmount": 20,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "lr300": {
+      "itemName": "lr300",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.lr300",
+          "minAmount": 1,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "MP5 With Ammo": {
+      "itemName": "MP5 With Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smg.mp5",
+          "minAmount": 1,
+          "maxAmount": 0
+        },
+        {
+          "itemName": "ammo.pistol",
+          "minAmount": 30,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "mp5": {
+      "itemName": "mp5",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smg.mp5",
+          "minAmount": 1,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "M92 With Ammo": {
+      "itemName": "M92 With Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pistol.m92",
+          "minAmount": 1,
+          "maxAmount": 0
+        },
+        {
+          "itemName": "ammo.pistol",
+          "minAmount": 30,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "m92": {
+      "itemName": "m92",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pistol.m92",
+          "minAmount": 1,
+          "maxAmount": 0
+        }
+      ]
+    },
+    "Items.VeryRare": {
+      "itemName": "Items.VeryRare",
+      "children": [
+        {
+          "definition": "Items.VeryRare.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.VeryRare.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.VeryRare.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.VeryRare.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.VeryRare.Tool",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.VeryRare.Weapon",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare": {
+      "itemName": "Items.Rare",
+      "children": [
+        {
+          "definition": "Items.Rare.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Misc",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Food",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Resources",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Medical",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Weapon",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Rare.Tool",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon": {
+      "itemName": "Items.Uncommon",
+      "children": [
+        {
+          "definition": "Items.Uncommon.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Food",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Resources",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Tool",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Uncommon.Weapon",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Collection.Rifles": {
+      "itemName": "Collection.Rifles",
+      "children": [
+        {
+          "definition": "AK47 With Ammo",
+          "weight": 50.0
+        },
+        {
+          "definition": "SMG with Ammo",
+          "weight": 100.0
+        },
+        {
+          "definition": "Bolt Rifle With Ammo",
+          "weight": 50.0
+        },
+        {
+          "definition": "LR300 With Ammo",
+          "weight": 20.0
+        },
+        {
+          "definition": "MP5 With Ammo",
+          "weight": 70.0
+        }
+      ],
+      "items": []
+    },
+    "Mining Ore": {
+      "itemName": "Mining Ore",
+      "children": [],
+      "items": [
+        {
+          "itemName": "mining.quarry",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "surveycharge",
+          "minAmount": 10,
+          "maxAmount": 10
+        }
+      ]
+    },
+    "Traps": {
+      "itemName": "Traps",
+      "children": [],
+      "items": [
+        {
+          "itemName": "trap.landmine",
+          "minAmount": 3,
+          "maxAmount": 3
+        },
+        {
+          "itemName": "trap.bear",
+          "minAmount": 3,
+          "maxAmount": 3
+        }
+      ]
+    },
+    "HQMetal_Large": {
+      "itemName": "HQMetal_Large",
+      "children": [],
+      "items": [
+        {
+          "itemName": "metal.refined",
+          "minAmount": 50,
+          "maxAmount": 50
+        }
+      ]
+    },
+    "targeting_computer": {
+      "itemName": "targeting_computer",
+      "children": [],
+      "items": [
+        {
+          "itemName": "targeting.computer",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "cctv_camera": {
+      "itemName": "cctv_camera",
+      "children": [],
+      "items": [
+        {
+          "itemName": "cctv.camera",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Items.Common.Food": {
+      "itemName": "Items.Common.Food",
+      "children": [
+        {
+          "definition": "Apple",
+          "weight": 100.0
+        },
+        {
+          "definition": "can.beans",
+          "weight": 100.0
+        },
+        {
+          "definition": "can.tuna",
+          "weight": 100.0
+        },
+        {
+          "definition": "chocholate",
+          "weight": 100.0
+        },
+        {
+          "definition": "granolabar",
+          "weight": 100.0
+        },
+        {
+          "definition": "smallwaterbottle",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "DM.Food": {
+      "itemName": "DM.Food",
+      "children": [
+        {
+          "definition": "Apple",
+          "weight": 100.0
+        },
+        {
+          "definition": "black.raspberries",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueberries",
+          "weight": 100.0
+        },
+        {
+          "definition": "can.beans",
+          "weight": 100.0
+        },
+        {
+          "definition": "can.tuna",
+          "weight": 100.0
+        },
+        {
+          "definition": "chocholate",
+          "weight": 100.0
+        },
+        {
+          "definition": "granolabar",
+          "weight": 100.0
+        },
+        {
+          "definition": "pumpkin",
+          "weight": 100.0
+        },
+        {
+          "definition": "smallwaterbottle",
+          "weight": 200.0
+        }
+      ],
+      "items": []
+    },
+    "Collection.Tools": {
+      "itemName": "Collection.Tools",
+      "children": [
+        {
+          "definition": "Items.Common.Tool",
+          "weight": 70.0
+        },
+        {
+          "definition": "Items.Uncommon.Tool",
+          "weight": 20.0
+        },
+        {
+          "definition": "Items.Rare.Tool",
+          "weight": 10.0
+        }
+      ],
+      "items": []
+    },
+    "Collection.Weapons": {
+      "itemName": "Collection.Weapons",
+      "children": [
+        {
+          "definition": "Collection.Rifles",
+          "weight": 30.0
+        },
+        {
+          "definition": "Bow And Arrow",
+          "weight": 22.0
+        },
+        {
+          "definition": "Items.Common.Weapon",
+          "weight": 22.0
+        }
+      ],
+      "items": []
+    },
+    "LootSpawn.GenericLessNothing": {
+      "itemName": "LootSpawn.GenericLessNothing",
+      "children": [
+        {
+          "definition": "Nothing",
+          "weight": 3.0
+        },
+        {
+          "definition": "Blueprints.Common",
+          "weight": 10.0
+        },
+        {
+          "definition": "Blueprints.Uncommon",
+          "weight": 3.0
+        },
+        {
+          "definition": "Blueprints.Rare",
+          "weight": 2.0
+        },
+        {
+          "definition": "Blueprints.VeryRare",
+          "weight": 1.0
+        },
+        {
+          "definition": "Items.Common",
+          "weight": 50.0
+        },
+        {
+          "definition": "Items.Uncommon",
+          "weight": 20.0
+        },
+        {
+          "definition": "Items.Rare",
+          "weight": 5.0
+        },
+        {
+          "definition": "Items.VeryRare",
+          "weight": 2.0
+        }
+      ],
+      "items": []
+    },
+    "Blueprints.Common": {
+      "itemName": "Blueprints.Common",
+      "children": [
+        {
+          "definition": "Blueprints.Common.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Traps",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Medical",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Weapon",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Common.Tool",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Blueprints.Uncommon": {
+      "itemName": "Blueprints.Uncommon",
+      "children": [
+        {
+          "definition": "Blueprints.Uncommon.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Traps",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Misc",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Resources",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Medical",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Tool",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Uncommon.Weapon",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Blueprints.Rare": {
+      "itemName": "Blueprints.Rare",
+      "children": [
+        {
+          "definition": "Blueprints.Rare.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Rare.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Rare.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Rare.Traps",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Rare.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Rare.Weapon",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.Rare.Tool",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Blueprints.VeryRare": {
+      "itemName": "Blueprints.VeryRare",
+      "children": [
+        {
+          "definition": "Blueprints.VeryRare.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.VeryRare.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.VeryRare.Traps",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.VeryRare.Tool",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueprints.VeryRare.Weapon",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Collection.Attire": {
+      "itemName": "Collection.Attire",
+      "children": [
+        {
+          "definition": "Items.Common.Attire",
+          "weight": 70.0
+        },
+        {
+          "definition": "Items.Uncommon.Attire",
+          "weight": 20.0
+        },
+        {
+          "definition": "Items.Rare.Attire",
+          "weight": 10.0
+        },
+        {
+          "definition": "Items.VeryRare.Attire",
+          "weight": 5.0
+        }
+      ],
+      "items": []
+    },
+    "HQMetal": {
+      "itemName": "HQMetal",
+      "children": [],
+      "items": [
+        {
+          "itemName": "metal.refined",
+          "minAmount": 5,
+          "maxAmount": 5
+        }
+      ]
+    },
+    "Bandage": {
+      "itemName": "Bandage",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bandage",
+          "minAmount": 3,
+          "maxAmount": 9
+        }
+      ]
+    },
+    "largemedkit": {
+      "itemName": "largemedkit",
+      "children": [],
+      "items": [
+        {
+          "itemName": "largemedkit",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "syringe.medical": {
+      "itemName": "syringe.medical",
+      "children": [],
+      "items": [
+        {
+          "itemName": "syringe.medical",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Nothing": {
+      "itemName": "Nothing",
+      "children": [],
+      "items": []
+    },
+    "Items.Common": {
+      "itemName": "Items.Common",
+      "children": [
+        {
+          "definition": "Items.Common.Ammunition",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Construction",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Attire",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Items",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Food",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Resources",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Medical",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Weapon",
+          "weight": 100.0
+        },
+        {
+          "definition": "Items.Common.Tool",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Bow And Arrow": {
+      "itemName": "Bow And Arrow",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bow.hunting",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "arrow.wooden",
+          "minAmount": 5,
+          "maxAmount": 5
+        }
+      ]
+    },
+    "Items.Common.Tool": {
+      "itemName": "Items.Common.Tool",
+      "children": [
+        {
+          "definition": "stonehatchet",
+          "weight": 100.0
+        },
+        {
+          "definition": "stonepickaxe",
+          "weight": 100.0
+        },
+        {
+          "definition": "bucket.water",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Tool": {
+      "itemName": "Items.Uncommon.Tool",
+      "children": [
+        {
+          "definition": "surveycharge",
+          "weight": 100.0
+        },
+        {
+          "definition": "Hatchet",
+          "weight": 100.0
+        },
+        {
+          "definition": "hammer.salvaged",
+          "weight": 100.0
+        },
+        {
+          "definition": "icepick.salvaged",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Crossbow": {
+      "itemName": "Crossbow",
+      "children": [],
+      "items": [
+        {
+          "itemName": "crossbow",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "arrow.wooden",
+          "minAmount": 5,
+          "maxAmount": 5
+        }
+      ]
+    },
+    "Items.Common.Medical": {
+      "itemName": "Items.Common.Medical",
+      "children": [
+        {
+          "definition": "antiradpills",
+          "weight": 100.0
+        },
+        {
+          "definition": "syringe.medical",
+          "weight": 100.0
+        },
+        {
+          "definition": "Bandage",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Common.Attire": {
+      "itemName": "Items.Common.Attire",
+      "children": [
+        {
+          "definition": "burlap.gloves",
+          "weight": 100.0
+        },
+        {
+          "definition": "burlap.headwrap",
+          "weight": 100.0
+        },
+        {
+          "definition": "hoodie",
+          "weight": 100.0
+        },
+        {
+          "definition": "pants",
+          "weight": 100.0
+        },
+        {
+          "definition": "burlap.trousers",
+          "weight": 100.0
+        },
+        {
+          "definition": "burlap.shirt",
+          "weight": 100.0
+        },
+        {
+          "definition": "burlap.shoes",
+          "weight": 100.0
+        },
+        {
+          "definition": "tshirt",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Blueprint Fragments": {
+      "itemName": "Blueprint Fragments",
+      "children": [],
+      "items": [
+        {
+          "itemName": "blueprint_fragment",
+          "minAmount": 50,
+          "maxAmount": 50
+        }
+      ]
+    },
+    "Items.VeryRare.Ammunition": {
+      "itemName": "Items.VeryRare.Ammunition",
+      "children": [
+        {
+          "definition": "ammo.pistol.fire",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.pistol.hv",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.rifle.explosive",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.rifle.incendiary",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.rifle.hv",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.VeryRare.Construction": {
+      "itemName": "Items.VeryRare.Construction",
+      "children": [
+        {
+          "definition": "door.hinged.toptier",
+          "weight": 100.0
+        },
+        {
+          "definition": "gates.external.high.stone",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.external.high.stone",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.VeryRare.Attire": {
+      "itemName": "Items.VeryRare.Attire",
+      "children": [
+        {
+          "definition": "metal.facemask",
+          "weight": 100.0
+        },
+        {
+          "definition": "metal.plate.torso",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.VeryRare.Items": {
+      "itemName": "Items.VeryRare.Items",
+      "children": [
+        {
+          "definition": "jackolantern.angry",
+          "weight": 100.0
+        },
+        {
+          "definition": "jackolantern.happy",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.VeryRare.Tool": {
+      "itemName": "Items.VeryRare.Tool",
+      "children": [
+        {
+          "definition": "explosive.timed",
+          "weight": 100.0
+        },
+        {
+          "definition": "supply.signal",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.VeryRare.Weapon": {
+      "itemName": "Items.VeryRare.Weapon",
+      "children": [
+        {
+          "definition": "rifle.ak",
+          "weight": 100.0
+        },
+        {
+          "definition": "rifle.bolt",
+          "weight": 100.0
+        },
+        {
+          "definition": "lr300",
+          "weight": 20.0
+        },
+        {
+          "definition": "m92",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Attire": {
+      "itemName": "Items.Rare.Attire",
+      "children": [
+        {
+          "definition": "hat.wolf",
+          "weight": 100.0
+        },
+        {
+          "definition": "hat.cap",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Ammunition": {
+      "itemName": "Items.Rare.Ammunition",
+      "children": [
+        {
+          "definition": "ammo.rifle",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.rocket.fire",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.rocket.hv",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Construction": {
+      "itemName": "Items.Rare.Construction",
+      "children": [
+        {
+          "definition": "door.double.hinged.metal",
+          "weight": 100.0
+        },
+        {
+          "definition": "door.double.hinged.toptier",
+          "weight": 100.0
+        },
+        {
+          "definition": "door.double.hinged.wood",
+          "weight": 100.0
+        },
+        {
+          "definition": "door.hinged.metal",
+          "weight": 100.0
+        },
+        {
+          "definition": "floor.grill",
+          "weight": 100.0
+        },
+        {
+          "definition": "floor.ladder.hatch",
+          "weight": 100.0
+        },
+        {
+          "definition": "gates.external.high.wood",
+          "weight": 100.0
+        },
+        {
+          "definition": "ladder.wooden.wall",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.external.high",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.frame.cell.gate",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.frame.cell",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.frame.fence.gate",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.frame.fence",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.frame.shopfront",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.window.bars.metal",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.window.bars.toptier",
+          "weight": 100.0
+        },
+        {
+          "definition": "barricade.concrete",
+          "weight": 100.0
+        },
+        {
+          "definition": "barricade.metal",
+          "weight": 100.0
+        },
+        {
+          "definition": "cupboard.tool",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Items": {
+      "itemName": "Items.Rare.Items",
+      "children": [
+        {
+          "definition": "furnace.large",
+          "weight": 100.0
+        },
+        {
+          "definition": "small.oil.refinery",
+          "weight": 100.0
+        },
+        {
+          "definition": "research.table",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.hanging.banner.large",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.hanging.ornate",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.pictureframe.xl",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.pictureframe.xxl",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.pole.banner.large",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.post.town.roof",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Misc": {
+      "itemName": "Items.Rare.Misc",
+      "children": [
+        {
+          "definition": "fun.guitar",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Food": {
+      "itemName": "Items.Rare.Food",
+      "children": [
+        {
+          "definition": "seed.corn",
+          "weight": 100.0
+        },
+        {
+          "definition": "seed.hemp",
+          "weight": 100.0
+        },
+        {
+          "definition": "seed.pumpkin",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Resources": {
+      "itemName": "Items.Rare.Resources",
+      "children": [
+        {
+          "definition": "cctv.camera",
+          "weight": 100.0
+        },
+        {
+          "definition": "Explosives",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Medical": {
+      "itemName": "Items.Rare.Medical",
+      "children": [
+        {
+          "definition": "largemedkit",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Weapon": {
+      "itemName": "Items.Rare.Weapon",
+      "children": [
+        {
+          "definition": "weapon.mod.flashlight",
+          "weight": 30.0
+        },
+        {
+          "definition": "weapon.mod.holosight",
+          "weight": 100.0
+        },
+        {
+          "definition": "weapon.mod.lasersight",
+          "weight": 100.0
+        },
+        {
+          "definition": "weapon.mod.muzzleboost",
+          "weight": 100.0
+        },
+        {
+          "definition": "weapon.mod.muzzlebrake",
+          "weight": 100.0
+        },
+        {
+          "definition": "weapon.mod.silencer",
+          "weight": 100.0
+        },
+        {
+          "definition": "weapon.mod.small.scope",
+          "weight": 100.0
+        },
+        {
+          "definition": "flamethrower",
+          "weight": 100.0
+        },
+        {
+          "definition": "rocket.launcher",
+          "weight": 100.0
+        },
+        {
+          "definition": "shotgun.pump",
+          "weight": 100.0
+        },
+        {
+          "definition": "pistol.semiauto",
+          "weight": 100.0
+        },
+        {
+          "definition": "rifle.semiauto",
+          "weight": 100.0
+        },
+        {
+          "definition": "smg.2",
+          "weight": 100.0
+        },
+        {
+          "definition": "smg.thompson",
+          "weight": 100.0
+        },
+        {
+          "definition": "mp5",
+          "weight": 100.0
+        },
+        {
+          "definition": "m92",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Rare.Tool": {
+      "itemName": "Items.Rare.Tool",
+      "children": [
+        {
+          "definition": "pickaxe",
+          "weight": 100.0
+        },
+        {
+          "definition": "axe.salvaged",
+          "weight": 100.0
+        },
+        {
+          "definition": "stone.pickaxe",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Ammunition": {
+      "itemName": "Items.Uncommon.Ammunition",
+      "children": [
+        {
+          "definition": "ammo.pistol",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.rocket.basic",
+          "weight": 75.0
+        },
+        {
+          "definition": "ammo.shotgun",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.shotgun.slug",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Construction": {
+      "itemName": "Items.Uncommon.Construction",
+      "children": [
+        {
+          "definition": "door.hinged.wood",
+          "weight": 100.0
+        },
+        {
+          "definition": "wall.window.bars.wood",
+          "weight": 100.0
+        },
+        {
+          "definition": "barricade.sandbags",
+          "weight": 100.0
+        },
+        {
+          "definition": "barricade.wood",
+          "weight": 100.0
+        },
+        {
+          "definition": "barricade.woodwire",
+          "weight": 100.0
+        },
+        {
+          "definition": "lock.code",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Attire": {
+      "itemName": "Items.Uncommon.Attire",
+      "children": [
+        {
+          "definition": "attire.hide.helterneck",
+          "weight": 100.0
+        },
+        {
+          "definition": "hat.beenie",
+          "weight": 100.0
+        },
+        {
+          "definition": "hat.boonie",
+          "weight": 100.0
+        },
+        {
+          "definition": "bucket.helmet",
+          "weight": 100.0
+        },
+        {
+          "definition": "hat.candle",
+          "weight": 100.0
+        },
+        {
+          "definition": "coffeecan.helmet",
+          "weight": 100.0
+        },
+        {
+          "definition": "hat.miner",
+          "weight": 100.0
+        },
+        {
+          "definition": "riot.helmet",
+          "weight": 100.0
+        },
+        {
+          "definition": "jacket",
+          "weight": 100.0
+        },
+        {
+          "definition": "bone.armor",
+          "weight": 100.0
+        },
+        {
+          "definition": "jacket.snow",
+          "weight": 100.0
+        },
+        {
+          "definition": "wood.armor.jacket",
+          "weight": 100.0
+        },
+        {
+          "definition": "mask.balaclava",
+          "weight": 100.0
+        },
+        {
+          "definition": "mask.bandana",
+          "weight": 100.0
+        },
+        {
+          "definition": "bone.armor",
+          "weight": 100.0
+        },
+        {
+          "definition": "attire.hide.pants",
+          "weight": 100.0
+        },
+        {
+          "definition": "roadsign.kilt",
+          "weight": 100.0
+        },
+        {
+          "definition": "wood.armor.pants",
+          "weight": 100.0
+        },
+        {
+          "definition": "attire.hide.poncho",
+          "weight": 100.0
+        },
+        {
+          "definition": "attire.hide.vest",
+          "weight": 100.0
+        },
+        {
+          "definition": "shoes.boots",
+          "weight": 100.0
+        },
+        {
+          "definition": "attire.hide.boots",
+          "weight": 100.0
+        },
+        {
+          "definition": "attire.hide.skirt",
+          "weight": 100.0
+        },
+        {
+          "definition": "tshirt.long",
+          "weight": 100.0
+        },
+        {
+          "definition": "roadsign.jacket",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Items": {
+      "itemName": "Items.Uncommon.Items",
+      "children": [
+        {
+          "definition": "bed",
+          "weight": 100.0
+        },
+        {
+          "definition": "ceilinglight",
+          "weight": 100.0
+        },
+        {
+          "definition": "Lantern",
+          "weight": 100.0
+        },
+        {
+          "definition": "box.wooden.large",
+          "weight": 100.0
+        },
+        {
+          "definition": "box.repair.bench",
+          "weight": 100.0
+        },
+        {
+          "definition": "shelves",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.hanging",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.pictureframe.landscape",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.pictureframe.portrait",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.pictureframe.tall",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.post.double",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.post.town",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.wooden.huge",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.wooden.large",
+          "weight": 100.0
+        },
+        {
+          "definition": "sleepingbag",
+          "weight": 100.0
+        },
+        {
+          "definition": "water.purifier",
+          "weight": 100.0
+        },
+        {
+          "definition": "map",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Food": {
+      "itemName": "Items.Uncommon.Food",
+      "children": [
+        {
+          "definition": "apple.spoiled",
+          "weight": 100.0
+        },
+        {
+          "definition": "black.raspberries",
+          "weight": 100.0
+        },
+        {
+          "definition": "Blueberries",
+          "weight": 100.0
+        },
+        {
+          "definition": "chicken.burned",
+          "weight": 100.0
+        },
+        {
+          "definition": "chicken.cooked",
+          "weight": 100.0
+        },
+        {
+          "definition": "chicken.raw",
+          "weight": 100.0
+        },
+        {
+          "definition": "chicken.spoiled",
+          "weight": 100.0
+        },
+        {
+          "definition": "bearmeat.burned",
+          "weight": 100.0
+        },
+        {
+          "definition": "bearmeat.cooked",
+          "weight": 100.0
+        },
+        {
+          "definition": "bearmeat",
+          "weight": 100.0
+        },
+        {
+          "definition": "wolfmeat.burned",
+          "weight": 100.0
+        },
+        {
+          "definition": "wolfmeat.cooked",
+          "weight": 100.0
+        },
+        {
+          "definition": "wolfmeat.raw",
+          "weight": 100.0
+        },
+        {
+          "definition": "wolfmeat.spoiled",
+          "weight": 100.0
+        },
+        {
+          "definition": "meat.pork.burned",
+          "weight": 100.0
+        },
+        {
+          "definition": "meat.pork.cooked",
+          "weight": 100.0
+        },
+        {
+          "definition": "meat.boar",
+          "weight": 100.0
+        },
+        {
+          "definition": "waterjug",
+          "weight": 100.0
+        },
+        {
+          "definition": "corn",
+          "weight": 100.0
+        },
+        {
+          "definition": "pumpkin",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Resources": {
+      "itemName": "Items.Uncommon.Resources",
+      "children": [
+        {
+          "definition": "Cloth",
+          "weight": 100.0
+        },
+        {
+          "definition": "lowgradefuel",
+          "weight": 100.0
+        },
+        {
+          "definition": "gunpowder",
+          "weight": 100.0
+        },
+        {
+          "definition": "leather",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Uncommon.Weapon": {
+      "itemName": "Items.Uncommon.Weapon",
+      "children": [
+        {
+          "definition": "salvaged.cleaver",
+          "weight": 30.0
+        },
+        {
+          "definition": "crossbow",
+          "weight": 100.0
+        },
+        {
+          "definition": "grenade.f1",
+          "weight": 100.0
+        },
+        {
+          "definition": "Mace",
+          "weight": 30.0
+        },
+        {
+          "definition": "shotgun.waterpipe",
+          "weight": 100.0
+        },
+        {
+          "definition": "pistol.revolver",
+          "weight": 100.0
+        },
+        {
+          "definition": "spear.stone",
+          "weight": 20.0
+        },
+        {
+          "definition": "Longsword",
+          "weight": 30.0
+        }
+      ],
+      "items": []
+    },
+    "AK47 With Ammo": {
+      "itemName": "AK47 With Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.ak",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "ammo.rifle",
+          "minAmount": 12,
+          "maxAmount": 12
+        }
+      ]
+    },
+    "SMG with Ammo": {
+      "itemName": "SMG with Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smg.thompson",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "ammo.pistol",
+          "minAmount": 15,
+          "maxAmount": 15
+        }
+      ]
+    },
+    "Bolt Rifle With Ammo": {
+      "itemName": "Bolt Rifle With Ammo",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.bolt",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "ammo.rifle",
+          "minAmount": 8,
+          "maxAmount": 8
+        }
+      ]
+    },
+    "Apple": {
+      "itemName": "Apple",
+      "children": [],
+      "items": [
+        {
+          "itemName": "apple",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "can.beans": {
+      "itemName": "can.beans",
+      "children": [],
+      "items": [
+        {
+          "itemName": "can.beans",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "can.tuna": {
+      "itemName": "can.tuna",
+      "children": [],
+      "items": [
+        {
+          "itemName": "can.tuna",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "chocholate": {
+      "itemName": "chocholate",
+      "children": [],
+      "items": [
+        {
+          "itemName": "chocholate",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "granolabar": {
+      "itemName": "granolabar",
+      "children": [],
+      "items": [
+        {
+          "itemName": "granolabar",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "smallwaterbottle": {
+      "itemName": "smallwaterbottle",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smallwaterbottle",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Items.Common.Weapon": {
+      "itemName": "Items.Common.Weapon",
+      "children": [
+        {
+          "definition": "grenade.beancan",
+          "weight": 100.0
+        },
+        {
+          "definition": "bone.club",
+          "weight": 100.0
+        },
+        {
+          "definition": "knife.bone",
+          "weight": 100.0
+        },
+        {
+          "definition": "bow.hunting",
+          "weight": 100.0
+        },
+        {
+          "definition": "pistol.eoka",
+          "weight": 100.0
+        },
+        {
+          "definition": "machete",
+          "weight": 100.0
+        },
+        {
+          "definition": "salvaged.sword",
+          "weight": 100.0
+        },
+        {
+          "definition": "spear.wooden",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Common.Ammunition": {
+      "itemName": "Items.Common.Ammunition",
+      "children": [
+        {
+          "definition": "arrow.hv",
+          "weight": 100.0
+        },
+        {
+          "definition": "arrow.wooden",
+          "weight": 100.0
+        },
+        {
+          "definition": "ammo.handmade.shell",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Common.Construction": {
+      "itemName": "Items.Common.Construction",
+      "children": [
+        {
+          "definition": "shutter.metal.embrasure.a",
+          "weight": 100.0
+        },
+        {
+          "definition": "shutter.metal.embrasure.b",
+          "weight": 100.0
+        },
+        {
+          "definition": "shutter.wood.a",
+          "weight": 100.0
+        },
+        {
+          "definition": "barricade.stone",
+          "weight": 100.0
+        },
+        {
+          "definition": "lock.key",
+          "weight": 100.0
+        },
+        {
+          "definition": "building.planner",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Common.Items": {
+      "itemName": "Items.Common.Items",
+      "children": [
+        {
+          "definition": "campfire",
+          "weight": 100.0
+        },
+        {
+          "definition": "water.barrel",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.post.single",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.wooden.medium",
+          "weight": 100.0
+        },
+        {
+          "definition": "sign.wooden.small",
+          "weight": 100.0
+        },
+        {
+          "definition": "botabag",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "Items.Common.Resources": {
+      "itemName": "Items.Common.Resources",
+      "children": [
+        {
+          "definition": "bone.fragments",
+          "weight": 100.0
+        },
+        {
+          "definition": "can.beans.empty",
+          "weight": 100.0
+        },
+        {
+          "definition": "can.tuna.empty",
+          "weight": 100.0
+        },
+        {
+          "definition": "Paper",
+          "weight": 100.0
+        }
+      ],
+      "items": []
+    },
+    "stonehatchet": {
+      "itemName": "stonehatchet",
+      "children": [],
+      "items": [
+        {
+          "itemName": "stonehatchet",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "stonepickaxe": {
+      "itemName": "stonepickaxe",
+      "children": [],
+      "items": [
+        {
+          "itemName": "stone.pickaxe",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Torch": {
+      "itemName": "Torch",
+      "children": [],
+      "items": [
+        {
+          "itemName": "torch",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bucket.water": {
+      "itemName": "bucket.water",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bucket.water",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "surveycharge": {
+      "itemName": "surveycharge",
+      "children": [],
+      "items": [
+        {
+          "itemName": "surveycharge",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Hatchet": {
+      "itemName": "Hatchet",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hatchet",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hammer.salvaged": {
+      "itemName": "hammer.salvaged",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hammer.salvaged",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "icepick.salvaged": {
+      "itemName": "icepick.salvaged",
+      "children": [],
+      "items": [
+        {
+          "itemName": "icepick.salvaged",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "antiradpills": {
+      "itemName": "antiradpills",
+      "children": [],
+      "items": [
+        {
+          "itemName": "antiradpills",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "burlap.gloves": {
+      "itemName": "burlap.gloves",
+      "children": [],
+      "items": [
+        {
+          "itemName": "burlap.gloves",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "burlap.headwrap": {
+      "itemName": "burlap.headwrap",
+      "children": [],
+      "items": [
+        {
+          "itemName": "burlap.headwrap",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hoodie": {
+      "itemName": "hoodie",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hoodie",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "pants": {
+      "itemName": "pants",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pants",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "burlap.trousers": {
+      "itemName": "burlap.trousers",
+      "children": [],
+      "items": [
+        {
+          "itemName": "burlap.trousers",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "burlap.shirt": {
+      "itemName": "burlap.shirt",
+      "children": [],
+      "items": [
+        {
+          "itemName": "burlap.shirt",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "burlap.shoes": {
+      "itemName": "burlap.shoes",
+      "children": [],
+      "items": [
+        {
+          "itemName": "burlap.shoes",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "tshirt": {
+      "itemName": "tshirt",
+      "children": [],
+      "items": [
+        {
+          "itemName": "tshirt",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.pistol.fire": {
+      "itemName": "ammo.pistol.fire",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.pistol.fire",
+          "minAmount": 40,
+          "maxAmount": 100
+        }
+      ]
+    },
+    "ammo.pistol.hv": {
+      "itemName": "ammo.pistol.hv",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.pistol.hv",
+          "minAmount": 40,
+          "maxAmount": 100
+        }
+      ]
+    },
+    "ammo.rifle.explosive": {
+      "itemName": "ammo.rifle.explosive",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rifle.explosive",
+          "minAmount": 30,
+          "maxAmount": 40
+        }
+      ]
+    },
+    "ammo.rifle.incendiary": {
+      "itemName": "ammo.rifle.incendiary",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rifle.incendiary",
+          "minAmount": 40,
+          "maxAmount": 60
+        }
+      ]
+    },
+    "ammo.rifle.hv": {
+      "itemName": "ammo.rifle.hv",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rifle.hv",
+          "minAmount": 40,
+          "maxAmount": 60
+        }
+      ]
+    },
+    "door.hinged.toptier": {
+      "itemName": "door.hinged.toptier",
+      "children": [],
+      "items": [
+        {
+          "itemName": "door.hinged.toptier",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "gates.external.high.stone": {
+      "itemName": "gates.external.high.stone",
+      "children": [],
+      "items": [
+        {
+          "itemName": "gates.external.high.stone",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.external.high.stone": {
+      "itemName": "wall.external.high.stone",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.external.high.stone",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "metal.facemask": {
+      "itemName": "metal.facemask",
+      "children": [],
+      "items": [
+        {
+          "itemName": "metal.facemask",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "metal.plate.torso": {
+      "itemName": "metal.plate.torso",
+      "children": [],
+      "items": [
+        {
+          "itemName": "metal.plate.torso",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "jackolantern.angry": {
+      "itemName": "jackolantern.angry",
+      "children": [],
+      "items": [
+        {
+          "itemName": "jackolantern.angry",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "jackolantern.happy": {
+      "itemName": "jackolantern.happy",
+      "children": [],
+      "items": [
+        {
+          "itemName": "jackolantern.happy",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "explosive.timed": {
+      "itemName": "explosive.timed",
+      "children": [],
+      "items": [
+        {
+          "itemName": "explosive.timed",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "tool.camera": {
+      "itemName": "tool.camera",
+      "children": [],
+      "items": [
+        {
+          "itemName": "tool.camera",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "supply.signal": {
+      "itemName": "supply.signal",
+      "children": [],
+      "items": [
+        {
+          "itemName": "supply.signal",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "rifle.ak": {
+      "itemName": "rifle.ak",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.ak",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "rifle.bolt": {
+      "itemName": "rifle.bolt",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.bolt",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hat.wolf": {
+      "itemName": "hat.wolf",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hat.wolf",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hat.cap": {
+      "itemName": "hat.cap",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hat.cap",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.rifle": {
+      "itemName": "ammo.rifle",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rifle",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.rocket.fire": {
+      "itemName": "ammo.rocket.fire",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rocket.fire",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.rocket.hv": {
+      "itemName": "ammo.rocket.hv",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rocket.hv",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "door.double.hinged.metal": {
+      "itemName": "door.double.hinged.metal",
+      "children": [],
+      "items": [
+        {
+          "itemName": "door.double.hinged.metal",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "door.double.hinged.toptier": {
+      "itemName": "door.double.hinged.toptier",
+      "children": [],
+      "items": [
+        {
+          "itemName": "door.double.hinged.toptier",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "door.double.hinged.wood": {
+      "itemName": "door.double.hinged.wood",
+      "children": [],
+      "items": [
+        {
+          "itemName": "door.double.hinged.wood",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "door.hinged.metal": {
+      "itemName": "door.hinged.metal",
+      "children": [],
+      "items": [
+        {
+          "itemName": "door.hinged.metal",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "floor.grill": {
+      "itemName": "floor.grill",
+      "children": [],
+      "items": [
+        {
+          "itemName": "floor.grill",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "floor.ladder.hatch": {
+      "itemName": "floor.ladder.hatch",
+      "children": [],
+      "items": [
+        {
+          "itemName": "floor.ladder.hatch",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "gates.external.high.wood": {
+      "itemName": "gates.external.high.wood",
+      "children": [],
+      "items": [
+        {
+          "itemName": "gates.external.high.wood",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ladder.wooden.wall": {
+      "itemName": "ladder.wooden.wall",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ladder.wooden.wall",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.external.high": {
+      "itemName": "wall.external.high",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.external.high",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.frame.cell.gate": {
+      "itemName": "wall.frame.cell.gate",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.frame.cell.gate",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.frame.cell": {
+      "itemName": "wall.frame.cell",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.frame.cell",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.frame.fence.gate": {
+      "itemName": "wall.frame.fence.gate",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.frame.fence.gate",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.frame.fence": {
+      "itemName": "wall.frame.fence",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.frame.fence",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.frame.shopfront": {
+      "itemName": "wall.frame.shopfront",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.frame.shopfront",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.window.bars.metal": {
+      "itemName": "wall.window.bars.metal",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.window.bars.metal",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.window.bars.toptier": {
+      "itemName": "wall.window.bars.toptier",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.window.bars.toptier",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "barricade.concrete": {
+      "itemName": "barricade.concrete",
+      "children": [],
+      "items": [
+        {
+          "itemName": "barricade.concrete",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "barricade.metal": {
+      "itemName": "barricade.metal",
+      "children": [],
+      "items": [
+        {
+          "itemName": "barricade.metal",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "cupboard.tool": {
+      "itemName": "cupboard.tool",
+      "children": [],
+      "items": [
+        {
+          "itemName": "cupboard.tool",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "furnace.large": {
+      "itemName": "furnace.large",
+      "children": [],
+      "items": [
+        {
+          "itemName": "furnace.large",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "small.oil.refinery": {
+      "itemName": "small.oil.refinery",
+      "children": [],
+      "items": [
+        {
+          "itemName": "small.oil.refinery",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "research.table": {
+      "itemName": "research.table",
+      "children": [],
+      "items": [
+        {
+          "itemName": "research.table",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.hanging.banner.large": {
+      "itemName": "sign.hanging.banner.large",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.hanging.banner.large",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.hanging.ornate": {
+      "itemName": "sign.hanging.ornate",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.hanging.ornate",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.pictureframe.xl": {
+      "itemName": "sign.pictureframe.xl",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.pictureframe.xl",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.pictureframe.xxl": {
+      "itemName": "sign.pictureframe.xxl",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.pictureframe.xxl",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.pole.banner.large": {
+      "itemName": "sign.pole.banner.large",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.pole.banner.large",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.post.town.roof": {
+      "itemName": "sign.post.town.roof",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.post.town.roof",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "fun.guitar": {
+      "itemName": "fun.guitar",
+      "children": [],
+      "items": [
+        {
+          "itemName": "fun.guitar",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "seed.corn": {
+      "itemName": "seed.corn",
+      "children": [],
+      "items": [
+        {
+          "itemName": "seed.corn",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "seed.hemp": {
+      "itemName": "seed.hemp",
+      "children": [],
+      "items": [
+        {
+          "itemName": "seed.hemp",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "seed.pumpkin": {
+      "itemName": "seed.pumpkin",
+      "children": [],
+      "items": [
+        {
+          "itemName": "seed.pumpkin",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "cctv.camera": {
+      "itemName": "cctv.camera",
+      "children": [],
+      "items": [
+        {
+          "itemName": "cctv.camera",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Explosives": {
+      "itemName": "Explosives",
+      "children": [],
+      "items": [
+        {
+          "itemName": "explosives",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.flashlight": {
+      "itemName": "weapon.mod.flashlight",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.flashlight",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.holosight": {
+      "itemName": "weapon.mod.holosight",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.holosight",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.lasersight": {
+      "itemName": "weapon.mod.lasersight",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.lasersight",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.muzzleboost": {
+      "itemName": "weapon.mod.muzzleboost",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.muzzleboost",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.muzzlebrake": {
+      "itemName": "weapon.mod.muzzlebrake",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.muzzlebrake",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.silencer": {
+      "itemName": "weapon.mod.silencer",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.silencer",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "weapon.mod.small.scope": {
+      "itemName": "weapon.mod.small.scope",
+      "children": [],
+      "items": [
+        {
+          "itemName": "weapon.mod.small.scope",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "flamethrower": {
+      "itemName": "flamethrower",
+      "children": [],
+      "items": [
+        {
+          "itemName": "flamethrower",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "rocket.launcher": {
+      "itemName": "rocket.launcher",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rocket.launcher",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shotgun.pump": {
+      "itemName": "shotgun.pump",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shotgun.pump",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "pistol.semiauto": {
+      "itemName": "pistol.semiauto",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pistol.semiauto",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "rifle.semiauto": {
+      "itemName": "rifle.semiauto",
+      "children": [],
+      "items": [
+        {
+          "itemName": "rifle.semiauto",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "smg.2": {
+      "itemName": "smg.2",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smg.2",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "smg.thompson": {
+      "itemName": "smg.thompson",
+      "children": [],
+      "items": [
+        {
+          "itemName": "smg.thompson",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "pickaxe": {
+      "itemName": "pickaxe",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pickaxe",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "axe.salvaged": {
+      "itemName": "axe.salvaged",
+      "children": [],
+      "items": [
+        {
+          "itemName": "axe.salvaged",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "stone.pickaxe": {
+      "itemName": "stone.pickaxe",
+      "children": [],
+      "items": [
+        {
+          "itemName": "stone.pickaxe",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.pistol": {
+      "itemName": "ammo.pistol",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.pistol",
+          "minAmount": 12,
+          "maxAmount": 20
+        }
+      ]
+    },
+    "ammo.rocket.basic": {
+      "itemName": "ammo.rocket.basic",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.rocket.basic",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.shotgun": {
+      "itemName": "ammo.shotgun",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.shotgun",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.shotgun.slug": {
+      "itemName": "ammo.shotgun.slug",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.shotgun.slug",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "door.hinged.wood": {
+      "itemName": "door.hinged.wood",
+      "children": [],
+      "items": [
+        {
+          "itemName": "door.hinged.wood",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wall.window.bars.wood": {
+      "itemName": "wall.window.bars.wood",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wall.window.bars.wood",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "barricade.sandbags": {
+      "itemName": "barricade.sandbags",
+      "children": [],
+      "items": [
+        {
+          "itemName": "barricade.sandbags",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "barricade.wood": {
+      "itemName": "barricade.wood",
+      "children": [],
+      "items": [
+        {
+          "itemName": "barricade.wood",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "barricade.woodwire": {
+      "itemName": "barricade.woodwire",
+      "children": [],
+      "items": [
+        {
+          "itemName": "barricade.woodwire",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "lock.code": {
+      "itemName": "lock.code",
+      "children": [],
+      "items": [
+        {
+          "itemName": "lock.code",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "attire.hide.helterneck": {
+      "itemName": "attire.hide.helterneck",
+      "children": [],
+      "items": [
+        {
+          "itemName": "attire.hide.helterneck",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "WoodArmorSet": {
+      "itemName": "WoodArmorSet",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wood.armor.jacket",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "wood.armor.pants",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hat.beenie": {
+      "itemName": "hat.beenie",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hat.beenie",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hat.boonie": {
+      "itemName": "hat.boonie",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hat.boonie",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bucket.helmet": {
+      "itemName": "bucket.helmet",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bucket.helmet",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hat.candle": {
+      "itemName": "hat.candle",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hat.candle",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "coffeecan.helmet": {
+      "itemName": "coffeecan.helmet",
+      "children": [],
+      "items": [
+        {
+          "itemName": "coffeecan.helmet",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "hat.miner": {
+      "itemName": "hat.miner",
+      "children": [],
+      "items": [
+        {
+          "itemName": "hat.miner",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "riot.helmet": {
+      "itemName": "riot.helmet",
+      "children": [],
+      "items": [
+        {
+          "itemName": "riot.helmet",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "jacket": {
+      "itemName": "jacket",
+      "children": [],
+      "items": [
+        {
+          "itemName": "jacket",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bone.armor": {
+      "itemName": "bone.armor",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bone.armor.suit",
+          "minAmount": 1,
+          "maxAmount": 1
+        },
+        {
+          "itemName": "deer.skull.mask",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "jacket.snow": {
+      "itemName": "jacket.snow",
+      "children": [],
+      "items": [
+        {
+          "itemName": "jacket.snow",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wood.armor.jacket": {
+      "itemName": "wood.armor.jacket",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wood.armor.jacket",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "mask.balaclava": {
+      "itemName": "mask.balaclava",
+      "children": [],
+      "items": [
+        {
+          "itemName": "mask.balaclava",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "mask.bandana": {
+      "itemName": "mask.bandana",
+      "children": [],
+      "items": [
+        {
+          "itemName": "mask.bandana",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "attire.hide.pants": {
+      "itemName": "attire.hide.pants",
+      "children": [],
+      "items": [
+        {
+          "itemName": "attire.hide.pants",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "roadsign.kilt": {
+      "itemName": "roadsign.kilt",
+      "children": [],
+      "items": [
+        {
+          "itemName": "roadsign.kilt",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wood.armor.pants": {
+      "itemName": "wood.armor.pants",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wood.armor.pants",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "attire.hide.poncho": {
+      "itemName": "attire.hide.poncho",
+      "children": [],
+      "items": [
+        {
+          "itemName": "attire.hide.poncho",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "attire.hide.vest": {
+      "itemName": "attire.hide.vest",
+      "children": [],
+      "items": [
+        {
+          "itemName": "attire.hide.vest",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shoes.boots": {
+      "itemName": "shoes.boots",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shoes.boots",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "attire.hide.boots": {
+      "itemName": "attire.hide.boots",
+      "children": [],
+      "items": [
+        {
+          "itemName": "attire.hide.boots",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "attire.hide.skirt": {
+      "itemName": "attire.hide.skirt",
+      "children": [],
+      "items": [
+        {
+          "itemName": "attire.hide.skirt",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "tshirt.long": {
+      "itemName": "tshirt.long",
+      "children": [],
+      "items": [
+        {
+          "itemName": "tshirt.long",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "roadsign.jacket": {
+      "itemName": "roadsign.jacket",
+      "children": [],
+      "items": [
+        {
+          "itemName": "roadsign.jacket",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bed": {
+      "itemName": "bed",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bed",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ceilinglight": {
+      "itemName": "ceilinglight",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ceilinglight",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Lantern": {
+      "itemName": "Lantern",
+      "children": [],
+      "items": [
+        {
+          "itemName": "lantern",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "box.wooden.large": {
+      "itemName": "box.wooden.large",
+      "children": [],
+      "items": [
+        {
+          "itemName": "box.wooden.large",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "box.repair.bench": {
+      "itemName": "box.repair.bench",
+      "children": [],
+      "items": [
+        {
+          "itemName": "box.repair.bench",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shelves": {
+      "itemName": "shelves",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shelves",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.hanging": {
+      "itemName": "sign.hanging",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.hanging",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.pictureframe.landscape": {
+      "itemName": "sign.pictureframe.landscape",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.pictureframe.landscape",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.pictureframe.portrait": {
+      "itemName": "sign.pictureframe.portrait",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.pictureframe.portrait",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.pictureframe.tall": {
+      "itemName": "sign.pictureframe.tall",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.pictureframe.tall",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.post.double": {
+      "itemName": "sign.post.double",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.post.double",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.post.town": {
+      "itemName": "sign.post.town",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.post.town",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.wooden.huge": {
+      "itemName": "sign.wooden.huge",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.wooden.huge",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.wooden.large": {
+      "itemName": "sign.wooden.large",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.wooden.large",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sleepingbag": {
+      "itemName": "sleepingbag",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sleepingbag",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "water.purifier": {
+      "itemName": "water.purifier",
+      "children": [],
+      "items": [
+        {
+          "itemName": "water.purifier",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "map": {
+      "itemName": "map",
+      "children": [],
+      "items": [
+        {
+          "itemName": "map",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "apple.spoiled": {
+      "itemName": "apple.spoiled",
+      "children": [],
+      "items": [
+        {
+          "itemName": "apple.spoiled",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "black.raspberries": {
+      "itemName": "black.raspberries",
+      "children": [],
+      "items": [
+        {
+          "itemName": "black.raspberries",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Blueberries": {
+      "itemName": "Blueberries",
+      "children": [],
+      "items": [
+        {
+          "itemName": "blueberries",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "chicken.burned": {
+      "itemName": "chicken.burned",
+      "children": [],
+      "items": [
+        {
+          "itemName": "chicken.burned",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "chicken.cooked": {
+      "itemName": "chicken.cooked",
+      "children": [],
+      "items": [
+        {
+          "itemName": "chicken.cooked",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "chicken.raw": {
+      "itemName": "chicken.raw",
+      "children": [],
+      "items": [
+        {
+          "itemName": "chicken.raw",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "chicken.spoiled": {
+      "itemName": "chicken.spoiled",
+      "children": [],
+      "items": [
+        {
+          "itemName": "chicken.spoiled",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bearmeat.burned": {
+      "itemName": "bearmeat.burned",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bearmeat.burned",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bearmeat.cooked": {
+      "itemName": "bearmeat.cooked",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bearmeat.cooked",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bearmeat": {
+      "itemName": "bearmeat",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bearmeat",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wolfmeat.burned": {
+      "itemName": "wolfmeat.burned",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wolfmeat.burned",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wolfmeat.cooked": {
+      "itemName": "wolfmeat.cooked",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wolfmeat.cooked",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wolfmeat.raw": {
+      "itemName": "wolfmeat.raw",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wolfmeat.raw",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "wolfmeat.spoiled": {
+      "itemName": "wolfmeat.spoiled",
+      "children": [],
+      "items": [
+        {
+          "itemName": "wolfmeat.spoiled",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "meat.pork.burned": {
+      "itemName": "meat.pork.burned",
+      "children": [],
+      "items": [
+        {
+          "itemName": "meat.pork.burned",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "meat.pork.cooked": {
+      "itemName": "meat.pork.cooked",
+      "children": [],
+      "items": [
+        {
+          "itemName": "meat.pork.cooked",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "meat.boar": {
+      "itemName": "meat.boar",
+      "children": [],
+      "items": [
+        {
+          "itemName": "meat.boar",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "waterjug": {
+      "itemName": "waterjug",
+      "children": [],
+      "items": [
+        {
+          "itemName": "waterjug",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "corn": {
+      "itemName": "corn",
+      "children": [],
+      "items": [
+        {
+          "itemName": "corn",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "pumpkin": {
+      "itemName": "pumpkin",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pumpkin",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Cloth": {
+      "itemName": "Cloth",
+      "children": [],
+      "items": [
+        {
+          "itemName": "cloth",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "lowgradefuel": {
+      "itemName": "lowgradefuel",
+      "children": [],
+      "items": [
+        {
+          "itemName": "lowgradefuel",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "gunpowder": {
+      "itemName": "gunpowder",
+      "children": [],
+      "items": [
+        {
+          "itemName": "gunpowder",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "leather": {
+      "itemName": "leather",
+      "children": [],
+      "items": [
+        {
+          "itemName": "leather",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "salvaged.cleaver": {
+      "itemName": "salvaged.cleaver",
+      "children": [],
+      "items": [
+        {
+          "itemName": "salvaged.cleaver",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "crossbow": {
+      "itemName": "crossbow",
+      "children": [],
+      "items": [
+        {
+          "itemName": "crossbow",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "grenade.f1": {
+      "itemName": "grenade.f1",
+      "children": [],
+      "items": [
+        {
+          "itemName": "grenade.f1",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Mace": {
+      "itemName": "Mace",
+      "children": [],
+      "items": [
+        {
+          "itemName": "mace",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shotgun.waterpipe": {
+      "itemName": "shotgun.waterpipe",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shotgun.waterpipe",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "pistol.revolver": {
+      "itemName": "pistol.revolver",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pistol.revolver",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "spear.stone": {
+      "itemName": "spear.stone",
+      "children": [],
+      "items": [
+        {
+          "itemName": "spear.stone",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Longsword": {
+      "itemName": "Longsword",
+      "children": [],
+      "items": [
+        {
+          "itemName": "longsword",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "grenade.beancan": {
+      "itemName": "grenade.beancan",
+      "children": [],
+      "items": [
+        {
+          "itemName": "grenade.beancan",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bone.club": {
+      "itemName": "bone.club",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bone.club",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "knife.bone": {
+      "itemName": "knife.bone",
+      "children": [],
+      "items": [
+        {
+          "itemName": "knife.bone",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bow.hunting": {
+      "itemName": "bow.hunting",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bow.hunting",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "pistol.eoka": {
+      "itemName": "pistol.eoka",
+      "children": [],
+      "items": [
+        {
+          "itemName": "pistol.eoka",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "machete": {
+      "itemName": "machete",
+      "children": [],
+      "items": [
+        {
+          "itemName": "machete",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "salvaged.sword": {
+      "itemName": "salvaged.sword",
+      "children": [],
+      "items": [
+        {
+          "itemName": "salvaged.sword",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "spear.wooden": {
+      "itemName": "spear.wooden",
+      "children": [],
+      "items": [
+        {
+          "itemName": "spear.wooden",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "arrow.hv": {
+      "itemName": "arrow.hv",
+      "children": [],
+      "items": [
+        {
+          "itemName": "arrow.hv",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "arrow.wooden": {
+      "itemName": "arrow.wooden",
+      "children": [],
+      "items": [
+        {
+          "itemName": "arrow.wooden",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "ammo.handmade.shell": {
+      "itemName": "ammo.handmade.shell",
+      "children": [],
+      "items": [
+        {
+          "itemName": "ammo.handmade.shell",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shutter.metal.embrasure.a": {
+      "itemName": "shutter.metal.embrasure.a",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shutter.metal.embrasure.a",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shutter.metal.embrasure.b": {
+      "itemName": "shutter.metal.embrasure.b",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shutter.metal.embrasure.b",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "shutter.wood.a": {
+      "itemName": "shutter.wood.a",
+      "children": [],
+      "items": [
+        {
+          "itemName": "shutter.wood.a",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "barricade.stone": {
+      "itemName": "barricade.stone",
+      "children": [],
+      "items": [
+        {
+          "itemName": "barricade.stone",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "lock.key": {
+      "itemName": "lock.key",
+      "children": [],
+      "items": [
+        {
+          "itemName": "lock.key",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "building.planner": {
+      "itemName": "building.planner",
+      "children": [],
+      "items": [
+        {
+          "itemName": "building.planner",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "campfire": {
+      "itemName": "campfire",
+      "children": [],
+      "items": [
+        {
+          "itemName": "campfire",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "water.barrel": {
+      "itemName": "water.barrel",
+      "children": [],
+      "items": [
+        {
+          "itemName": "water.barrel",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.post.single": {
+      "itemName": "sign.post.single",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.post.single",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.wooden.medium": {
+      "itemName": "sign.wooden.medium",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.wooden.medium",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "sign.wooden.small": {
+      "itemName": "sign.wooden.small",
+      "children": [],
+      "items": [
+        {
+          "itemName": "sign.wooden.small",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "botabag": {
+      "itemName": "botabag",
+      "children": [],
+      "items": [
+        {
+          "itemName": "botabag",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "bone.fragments": {
+      "itemName": "bone.fragments",
+      "children": [],
+      "items": [
+        {
+          "itemName": "bone.fragments",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "can.beans.empty": {
+      "itemName": "can.beans.empty",
+      "children": [],
+      "items": [
+        {
+          "itemName": "can.beans.empty",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "can.tuna.empty": {
+      "itemName": "can.tuna.empty",
+      "children": [],
+      "items": [
+        {
+          "itemName": "can.tuna.empty",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    },
+    "Paper": {
+      "itemName": "Paper",
+      "children": [],
+      "items": [
+        {
+          "itemName": "paper",
+          "minAmount": 1,
+          "maxAmount": 1
+        }
+      ]
+    }
+  }
+}
