@@ -169,7 +169,7 @@
         },
         {
           "definition": "HQMetal",
-          "weight": 15.0
+          "weight": 5.0
         },
         {
           "definition": "Radsuit",
@@ -438,7 +438,7 @@
         },
         {
           "definition": "HQMetal",
-          "weight": 5.0
+          "weight": 2.0
         },
         {
           "definition": "Tools",
@@ -882,8 +882,8 @@
       "items": [
         {
           "itemName": "metal.refined",
-          "minAmount": 50,
-          "maxAmount": 50
+          "minAmount": 20,
+          "maxAmount": 20
         }
       ]
     },
